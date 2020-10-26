@@ -1,0 +1,16 @@
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.csprojAssemblyReference.cache
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\PrimerApp.deps.json
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\PrimerApp.dll
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\ref\PrimerApp.dll
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\PrimerApp.pdb
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\SurveyDetailsView.xaml.g.cs
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.AssemblyInfoInputs.cache
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.AssemblyInfo.cs
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.dll
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\ref\PrimerApp.dll
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.pdb
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\Redireccion.xaml.g.cs
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.csproj.CoreCompileInputs.cache
+D:\xa\ejem\PrimerApp\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\XamlC.stamp

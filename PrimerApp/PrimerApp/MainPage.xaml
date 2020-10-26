@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:PrimerApp.ViewModels"
+             x:Class="PrimerApp.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <AbsoluteLayout>
+       
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                    <Label Text="Bienvenido, en esta sección aparecerán las encuestas, dale al + de abajo para agregar una nueva encuesta." 
+                           HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+                </Frame>
+  
+                <ListView ItemsSource="{Binding Surveys}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}"
+                                      Detail="{Binding FavoriteFood}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+ 
+            </StackLayout>
+
+
+        <ImageButton
+                AbsoluteLayout.LayoutBounds="0.05,0.95,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#2196F3"
+                CornerRadius="40"
+                HeightRequest="80"
+                Source="telefono.png"
+                WidthRequest="80" 
+            Clicked="Call2"/>
+
+
+        <ImageButton
+                AbsoluteLayout.LayoutBounds="0.35,0.95,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#2196F3"
+                CornerRadius="40"
+                HeightRequest="80"
+                Source="microfono.png"
+                WidthRequest="80" 
+            Clicked="RecordButton_Click"/>
+
+        
+        <ImageButton
+                AbsoluteLayout.LayoutBounds="0.65,0.95,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#2196F3"
+                CornerRadius="40"
+                HeightRequest="80"
+                Source="ayuda.png"
+                WidthRequest="80" 
+            Clicked="Mensaje"/>
+     
+        
+        <ImageButton
+                AbsoluteLayout.LayoutBounds="0.95,0.95,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#2196F3"
+                CornerRadius="40"
+                HeightRequest="80"
+                Source="alertas.png"
+                WidthRequest="80" 
+            Clicked="Panic"/>
+
+
+    </AbsoluteLayout>
+</ContentPage>
