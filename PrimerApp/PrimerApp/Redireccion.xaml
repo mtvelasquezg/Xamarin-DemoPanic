@@ -1,12 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:primerapp="clr-namespace:PrimerApp"
              x:Class="PrimerApp.Redireccion">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Acá podras ser redirigido a Witty"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <AbsoluteLayout>
+
+            <StackLayout>
+                <Frame BackgroundColor="#678e00" Padding="24" CornerRadius="0">
+                    <Label Text=" Escribe El mensaje para enviar a la policia: " 
+                               HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+                </Frame>
+
+                <Editor x:Name ="msg"
+                        Placeholder="Escribe tu mensaje aqui" 
+                        PlaceholderColor="Black" 
+                        AutoSize="TextChanges"
+                        BackgroundColor ="#729E00" />
+                
+            </StackLayout>
+
+            <ImageButton
+                AbsoluteLayout.LayoutBounds="0.95,0.95,80,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#729E00"
+                CornerRadius="40"
+                HeightRequest="80"
+                Source="alertas.png"
+                WidthRequest="80" 
+                Clicked = "Enviar"
+             />
+        </AbsoluteLayout>
     </ContentPage.Content>
+
+    
+    
 </ContentPage>
