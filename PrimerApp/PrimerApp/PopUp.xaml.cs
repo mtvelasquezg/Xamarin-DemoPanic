@@ -98,7 +98,7 @@ namespace AdvancedPopUpSample
         private void boton_enviar_click(object sender, EventArgs e)
         {
             PopupNavigation.Instance.PopAsync();
-            DisplayAlert("Alert", "Su grabación ha sido enviada", "OK");
+            DisplayAlert("Su grabación ha sido enviada", "Una patrulla llegará pronto", "OK");
         }
 
         private void boton_cancelar_click(object sender, EventArgs e)
