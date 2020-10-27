@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj": {}
+    "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj": {}
   },
   "projects": {
-    "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj": {
+    "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj",
+        "projectUniqueName": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj",
         "projectName": "PrimerApp.Android",
-        "projectPath": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp.Android\\obj\\",
+        "projectPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.Android\\PrimerApp.Android.csproj",
+        "packagesPath": "C:\\Users\\79572\\.nuget\\packages\\",
+        "outputPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\79572\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
-                "projectPath": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\PrimerApp.csproj"
+              "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
+                "projectPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj"
               }
             }
           }
@@ -58,20 +58,20 @@
         }
       }
     },
-    "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
+    "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\PrimerApp.csproj",
+        "projectUniqueName": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj",
         "projectName": "PrimerApp",
-        "projectPath": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\PrimerApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\xa\\ejem\\PrimerApp\\PrimerApp\\PrimerApp\\obj\\",
+        "projectPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj",
+        "packagesPath": "C:\\Users\\79572\\.nuget\\packages\\",
+        "outputPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\79572\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

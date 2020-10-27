@@ -26,6 +26,7 @@ namespace PrimerApp.ViewModels
 
         public ICommand AddRedirection { get; set; }
 
+
         public MainPageViewModel()
         {
             Surveys = new ObservableCollection<Survey>();
@@ -37,6 +38,9 @@ namespace PrimerApp.ViewModels
             {
                 Surveys.Add(s);
             });
+
+           
+
         }
 
         private void AddCommandRedirectionExecute(object obj)
@@ -49,5 +53,8 @@ namespace PrimerApp.ViewModels
         {
             MessagingCenter.Send(this, "AddSurvey");
         }
+
+
+       
     }
 }
