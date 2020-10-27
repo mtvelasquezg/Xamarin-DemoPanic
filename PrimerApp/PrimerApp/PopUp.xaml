@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<popup:PopupPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AdvancedPopUpSample.PopUp">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="0" Margin="0">
+        <Frame WidthRequest="270" HeightRequest="500" Padding="15">
+      
+                
+         
+            <StackLayout>
+                <Label Text="Grabar mensaje" 
+                           HorizontalTextAlignment="Center" x:Name="mostrarTituloGrabar" TextColor="Black" FontSize="20"/>
+
+                <Label Text="" 
+                           HorizontalTextAlignment="Center" x:Name="espacioTituloGrabar" TextColor="Black" FontSize="20"/>
+                <ImageButton
+                HeightRequest="190"
+                     BackgroundColor="DarkGray"
+                Source="microfono.png"
+                WidthRequest="30" 
+            x:Name="boton_grabar"
+            Clicked="RecordButton_Click"/>
+
+                <Label Text="Reproducir mensaje" 
+                           HorizontalTextAlignment="Center" x:Name="mostrarReproducirLabel" TextColor="Black" FontSize="20"/>
+
+                <Label Text="" 
+                           HorizontalTextAlignment="Center" x:Name="espacioTituloReproducir" TextColor="Black" FontSize="20"/>
+
+                <ImageButton
+                HeightRequest="190"
+                     BackgroundColor="DarkGray"
+                Source="play.png"
+                WidthRequest="30" 
+            x:Name="boton_play"
+            Clicked="PlayButton_Click"/>
+
+               
+                <Label Text="" 
+                           HorizontalTextAlignment="Center" TextColor="Black" FontSize="20"/>
+                <Button Text="Enviar" x:Name="boton_enviar" Clicked="boton_enviar_click" BackgroundColor="#678e00"  WidthRequest="190" TextColor="White"/>
+
+                <Button Text="Grabar nuevo audio" x:Name="boton_nuevo" Clicked="boton_nuevo_click" BackgroundColor="#678e00"  WidthRequest="190" TextColor="White"/>
+
+                <Button Text="Cancelar" x:Name="boton_cancelar" Clicked="boton_cancelar_click" BackgroundColor="black" WidthRequest="190" TextColor="white"/>
+
+                <Label Text="Grabando audio..." 
+                           HorizontalTextAlignment="Center" x:Name="label_grabando_audio" IsVisible="false" TextColor="Black" FontSize="20"/>
+
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</popup:PopupPage>

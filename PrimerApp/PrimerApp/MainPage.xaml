@@ -13,8 +13,9 @@
                     <Label Text="Bienvenido, en esta sección aparecerán las encuestas, dale al + de abajo para agregar una nueva encuesta." 
                            HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
                 </Frame>
-  
-                <ListView ItemsSource="{Binding Surveys}">
+
+
+            <ListView ItemsSource="{Binding Surveys}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding Name}"
@@ -22,8 +23,9 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
- 
-            </StackLayout>
+
+
+        </StackLayout>
 
 
         <ImageButton
@@ -45,6 +47,7 @@
                 HeightRequest="80"
                 Source="microfono.png"
                 WidthRequest="80" 
+            x:Name="boton_grabar"
             Clicked="RecordButton_Click"/>
 
         

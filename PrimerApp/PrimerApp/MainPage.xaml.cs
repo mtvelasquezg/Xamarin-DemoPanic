@@ -9,6 +9,10 @@ using Xamarin.Forms;
 using Xamarin.Essentials;
 using System.Threading;
 using Plugin.AudioRecorder;
+using Rg.Plugins.Popup.Enums;
+using Rg.Plugins.Popup.Animations;
+using AdvancedPopUpSample;
+using Rg.Plugins.Popup.Services;
 
 namespace PrimerApp
 {
@@ -43,37 +47,17 @@ namespace PrimerApp
 
         async void RecordButton_Click(object sender, EventArgs e)
         {
-            await CheckAndRequestRecordAudioPermission();
-            await RecordAudio();
-            var filePath = recorder.GetAudioFilePath();
-            player.Play(filePath);
+            var pr = new PopUp();
+            var scaleAnimation = new ScaleAnimation
+            {
+                PositionIn = MoveAnimationOptions.Right,
+                PositionOut = MoveAnimationOptions.Left
+            };
+
+            pr.Animation = scaleAnimation;
+            await PopupNavigation.PushAsync(pr);
         }
 
-        async Task RecordAudio()
-        {
-            try
-            {
-                Task<string> recordTask;
-
-                if (!recorder.IsRecording)
-                {
-                   recordTask = await recorder.StartRecording();
-                }
-                else
-                {
-                    await recorder.StopRecording();
-                }
-
-
-                
-
-            }
-            catch (Exception ex)
-            {
-                
-            }
-
-        }
 
         public async Task<PermissionStatus> CheckAndRequestSmsPermission()
         {
@@ -95,26 +79,7 @@ namespace PrimerApp
             return status;
         }
 
-        public async Task<PermissionStatus> CheckAndRequestRecordAudioPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.Microphone>();
-
-            if (status == PermissionStatus.Granted)
-                return status;
-
-
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return status;
-            }
-
-            status = await Permissions.RequestAsync<Permissions.Microphone>();
-
-            return status;
-        }
-
+      
 
         public async Task<Location> GetCurrentLocation()
         {
