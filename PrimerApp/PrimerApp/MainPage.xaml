@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:PrimerApp.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:PrimerApp.ViewModels"
              x:Class="PrimerApp.MainPage">
 
     <ContentPage.BindingContext>
@@ -9,11 +10,15 @@
     <AbsoluteLayout>
        
             <StackLayout>
-                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-                    <Label Text="Bienvenido, en esta sección aparecerán las encuestas, dale al + de abajo para agregar una nueva encuesta." 
-                           HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+                <Frame BackgroundColor="#678e00" Padding="24" CornerRadius="0">
+                        <Label Text="Bienvenido a la App de la Policia Nacional de Colombia, " 
+                                HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
                 </Frame>
-  
+
+            
+                
+            
+
                 <ListView ItemsSource="{Binding Surveys}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -29,7 +34,7 @@
         <ImageButton
                 AbsoluteLayout.LayoutBounds="0.05,0.95,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#2196F3"
+                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="telefono.png"
@@ -40,7 +45,7 @@
         <ImageButton
                 AbsoluteLayout.LayoutBounds="0.35,0.95,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#2196F3"
+                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="microfono.png"
@@ -51,18 +56,18 @@
         <ImageButton
                 AbsoluteLayout.LayoutBounds="0.65,0.95,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#2196F3"
+                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="ayuda.png"
                 WidthRequest="80" 
-            Clicked="Mensaje"/>
+                Clicked="Mensaje2"/>
      
         
         <ImageButton
                 AbsoluteLayout.LayoutBounds="0.95,0.95,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#2196F3"
+                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="alertas.png"

@@ -171,6 +171,19 @@ namespace PrimerApp
 
         }
 
+        public async void Mensaje2(object sender, EventArgs e)
+        {
+
+            await Navigation.PushModalAsync(new Redireccion());
+
+        }
+
+
+        public async void Timer(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new TimerPage());
+        }
+
 
     }
 }

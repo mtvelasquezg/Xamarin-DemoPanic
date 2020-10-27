@@ -1066,24 +1066,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\79572\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xa\\ejem\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\PrimerApp.iOS.csproj",
+      "projectUniqueName": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\PrimerApp.iOS.csproj",
       "projectName": "PrimerApp.iOS",
-      "projectPath": "D:\\xa\\ejem\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\PrimerApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\xa\\ejem\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\obj\\",
+      "projectPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\PrimerApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\79572\\.nuget\\packages\\",
+      "outputPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\79572\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1097,8 +1097,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\xa\\ejem\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
-              "projectPath": "D:\\xa\\ejem\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj"
+            "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj": {
+              "projectPath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj"
             }
           }
         }
@@ -1130,4 +1130,16 @@
         "#import": []
       },
       "win-x86": {
-     
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp.iOS\\obj\\project.nuget.cache : Unterminated string. Expected delimiter: \". Path 'expectedPackageFiles', line 11, position 7."
+    }
+  ]
+}
