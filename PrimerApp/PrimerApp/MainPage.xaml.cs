@@ -104,7 +104,9 @@ namespace PrimerApp
         {
             var location = await GetCurrentLocation();
 
-            await DisplayAlert("Alert", "Se ha enviado tu mensaje: " + "Latitude: " + location.Latitude + " Longitude: " + location.Longitude + " Altitude: " +location.Altitude + "  -  La policia va en camino.", "OK");
+            await DisplayAlert("Alert", "Se ha alertado a la policia de una alerta de panico en la ubicacion:  " + "Latitud: " + location.Latitude + " Longitud: " + location.Longitude +  " -  La policia va en camino.", "OK");
+            
+            await Navigation.PushModalAsync(new TimerPage());
 
         }
 
@@ -124,12 +126,12 @@ namespace PrimerApp
             }
             else
             {
-                await DisplayAlert("Alert", "You have been alerted", "OK");
+                await DisplayAlert("Alert", "Por favor da permiso a la app para encontrar tu ubicacion", "OK");
 
             }
         }
 
-        public async void Call2(object sender, EventArgs e)
+        public void Call2(object sender, EventArgs e)
         {
 
             PhoneDialer.Open("123");

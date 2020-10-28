@@ -20,16 +20,7 @@
                 <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="60" TextColor="Green"></Label>
 
             </StackLayout>
-
-            <ImageButton
-                AbsoluteLayout.LayoutBounds="0.95,0.95,80,80"
-                AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#729E00"
-                CornerRadius="40"
-                HeightRequest="80"
-                Source="alertas.png"
-                WidthRequest="80"
-             />
+            
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

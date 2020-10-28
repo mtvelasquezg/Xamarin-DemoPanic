@@ -14,12 +14,12 @@
                         <Label Text="Bienvenido a la App de la Policia Nacional de Colombia, " 
                                 HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
                 </Frame>
+            <Label Text="Selecciona una de las cuatro maneras de contactarnos en la parte inferior " 
+                                HorizontalTextAlignment="Center" TextColor="Black" FontSize="18"/>
 
-            
-                
-            
 
-                <ListView ItemsSource="{Binding Surveys}">
+
+            <ListView ItemsSource="{Binding Surveys}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding Name}"

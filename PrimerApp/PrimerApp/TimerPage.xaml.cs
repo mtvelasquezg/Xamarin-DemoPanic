@@ -14,16 +14,9 @@ namespace PrimerApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TimerPage : ContentPage
     {
-        TimerViewModel tvm = new TimerViewModel();
-
-
         public TimerPage()
         {
-
             InitializeComponent();
-            tvm.StartTimerCommand();
-
-
         }
 
         public async void Enviar(object sender, EventArgs e)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Plugin.AudioRecorder;
+using PrimerApp;
 using Rg.Plugins.Popup.Services;
 using Xamarin.Essentials;
 
@@ -33,6 +34,7 @@ namespace AdvancedPopUpSample
         {
             await CheckAndRequestRecordAudioPermission();
             await RecordAudio();
+
         }
 
         async Task RecordAudio()
@@ -95,10 +97,11 @@ namespace AdvancedPopUpSample
             player.Play(filePath);
         }
 
-        private void boton_enviar_click(object sender, EventArgs e)
+        private async void boton_enviar_click(object sender, EventArgs e)
         {
             PopupNavigation.Instance.PopAsync();
             DisplayAlert("Su grabación ha sido enviada", "Una patrulla llegará pronto", "OK");
+            await Navigation.PushModalAsync(new TimerPage());
         }
 
         private void boton_cancelar_click(object sender, EventArgs e)

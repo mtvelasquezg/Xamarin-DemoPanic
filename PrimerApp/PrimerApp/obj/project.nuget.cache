@@ -1,22 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "SQErj0q59inWQ0koeSyvcaknhoupmLSc7kS/wL9oe9MhgxDLRgqAsAVZMYXGb7dfv/Dr2O3NY0xF/vpS1qs/cg==",
+  "dgSpecHash": "dnNWxWJ2h+5H1vO8tZo2GW5yz44CPZx0gI5C3AFrZQvqYV4EgXEJeCIei8eRSu59mxQh2q8X/V/Y7vZXpD2iCQ==",
   "success": true,
   "projectFilePath": "C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\PrimerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79572\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\79572\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\79572\\.nuget\\packages\\plugin.audiorecorder\\1.1.0\\plugin.audiorecorder.1.1.0.nupkg.sha512",
+    "C:\\Users\\79572\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
     "C:\\Users\\79572\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\79572\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\desarrollo\\Xamarin-DemoPanic\\PrimerApp\\PrimerApp\\obj\\project.nuget.cache : Unterminated string. Expected delimiter: \". Path 'expectedPackageFiles', line 14, position 7."
-    }
-  ]
+  "logs": []
 }

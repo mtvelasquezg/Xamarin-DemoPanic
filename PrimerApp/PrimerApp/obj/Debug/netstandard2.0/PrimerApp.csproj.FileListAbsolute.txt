@@ -25,11 +25,12 @@ C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\Red
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\SurveyDetailsView.xaml.g.cs
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.AssemblyInfoInputs.cache
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.AssemblyInfo.cs
-C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.csproj.CoreCompileInputs.cache
-C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.dll
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\ref\PrimerApp.dll
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.pdb
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\TimerPage.xaml.g.cs
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\TimerPage.xaml
 C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\bin\Debug\netstandard2.0\obj\Debug\netstandard2.0\TimerPage.xaml.g.cs
+C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PopUp.xaml.g.cs
+C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\PrimerApp.csproj.CoreCompileInputs.cache
+C:\desarrollo\Xamarin-DemoPanic\PrimerApp\PrimerApp\obj\Debug\netstandard2.0\XamlC.stamp

@@ -25,7 +25,7 @@
                 BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
-                Source="alertas.png"
+                Source="play.png"
                 WidthRequest="80" 
                 Clicked = "Enviar"
              />
