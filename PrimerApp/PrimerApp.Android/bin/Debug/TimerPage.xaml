@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:PrimerApp.ViewModels"
+             x:Class="PrimerApp.TimerPage">
+    
+    <ContentPage.BindingContext>
+        <viewmodels:TimerViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <StackLayout>
+                <Frame Padding="24" CornerRadius="0">
+                    <Label Text="Una patrulla va en camino" 
+                               HorizontalTextAlignment="Center" TextColor="Black" FontSize="31"/>
+                </Frame>
+
+                <Label Text="Por favor espere, el tiempo estimado restante para que la patrulla llegue a su ubicación es:" 
+                                HorizontalTextAlignment="Center" TextColor="#999999" FontSize="14"/>
+
+                
+
+            </StackLayout>
+
+            <ImageButton
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,200"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="100"
+                HeightRequest="80"
+                Source="avance.png"
+                WidthRequest="80" 
+            Clicked="Panic"/>
+
+            <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="60" TextColor="Black"></Label>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

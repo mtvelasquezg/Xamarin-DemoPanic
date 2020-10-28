@@ -12,15 +12,40 @@
         <AbsoluteLayout>
 
             <StackLayout>
-                <Frame BackgroundColor="#678e00" Padding="24" CornerRadius="0">
-                    <Label Text=" Un patrullero llegara en el tiempo indicado abajo: " 
-                               HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+                <Frame Padding="24" CornerRadius="0">
+                    <Label Text="Una patrulla va en camino" 
+                               HorizontalTextAlignment="Center" TextColor="Black" FontSize="31"/>
                 </Frame>
 
-                <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="60" TextColor="Green"></Label>
+                <Label Text="Por favor espere, el tiempo estimado restante para que la patrulla llegue a su ubicación es:" 
+                                HorizontalTextAlignment="Center" TextColor="#999999" FontSize="14"/>
+
+                <Label Text="{Binding TotalSeconds, StringFormat='{0:mm\\:ss}'}" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="60" TextColor="Black"></Label>
 
             </StackLayout>
-            
+
+            <ImageButton
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,200"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="100"
+                BackgroundColor="White"
+                Source="avance.png"
+
+            />
+
+            <Button
+                Text="CANCELAR"
+                TextColor="White" 
+                FontSize="18"
+                AbsoluteLayout.LayoutBounds="0.5,0.9,300,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="40"
+                BackgroundColor="#00BCD4"
+                HeightRequest="80"
+                
+                WidthRequest="80" 
+            />
+
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -10,12 +10,13 @@
     <AbsoluteLayout>
        
             <StackLayout>
-                <Frame BackgroundColor="#678e00" Padding="24" CornerRadius="0">
-                        <Label Text="Bienvenido a la App de la Policia Nacional de Colombia, " 
-                                HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
-                </Frame>
-            <Label Text="Selecciona una de las cuatro maneras de contactarnos en la parte inferior " 
-                                HorizontalTextAlignment="Center" TextColor="Black" FontSize="18"/>
+              
+                        <Label Text="¿Necesita ayuda de emergencia?" 
+                               FontFamily = "Roboto-black"
+                               HorizontalTextAlignment="Center" TextColor="Black" FontSize="31"/>
+            
+            <Label Text="Solo oprima el botón para enviar un mensaje automático con su ubicación." 
+                                HorizontalTextAlignment="Center" TextColor="#999999" FontSize="14"/>
 
 
 
@@ -33,20 +34,18 @@
 
 
         <ImageButton
-                AbsoluteLayout.LayoutBounds="0.05,0.95,80,80"
+                AbsoluteLayout.LayoutBounds="0.15,0.9,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="telefono.png"
                 WidthRequest="80" 
             Clicked="Call2"/>
-
+ 
 
         <ImageButton
-                AbsoluteLayout.LayoutBounds="0.35,0.95,80,80"
+                AbsoluteLayout.LayoutBounds="0.5,0.9,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
                 Source="microfono.png"
@@ -56,23 +55,21 @@
 
         
         <ImageButton
-                AbsoluteLayout.LayoutBounds="0.65,0.95,80,80"
+                AbsoluteLayout.LayoutBounds="0.85,0.9,80,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#729E00"
                 CornerRadius="40"
                 HeightRequest="80"
-                Source="ayuda.png"
+                Source="texto.png"
                 WidthRequest="80" 
                 Clicked="Mensaje2"/>
      
         
         <ImageButton
-                AbsoluteLayout.LayoutBounds="0.95,0.95,80,80"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,200"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                BackgroundColor="#729E00"
-                CornerRadius="40"
+                CornerRadius="100"
                 HeightRequest="80"
-                Source="alertas.png"
+                Source="panico.png"
                 WidthRequest="80" 
             Clicked="Panic"/>
 
